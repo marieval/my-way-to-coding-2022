@@ -35,4 +35,6 @@ I decided to create my own project: [LOGIC-game](https://github.com/marieval/log
 - I was excited when I realized that after stumbling across some bugs I remember a lot of stuff and am able to find the bugs and solve the problems quite quickly.
 
 ## May 2022
-- My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have some plans how to improve it
+- My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have ideas how to improve it, so it´s not finished yet.
+
+
