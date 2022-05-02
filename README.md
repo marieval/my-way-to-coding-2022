@@ -3,9 +3,9 @@
 This is a log of my way (back) to coding in 2022.
 
 ## Intro
-In 2017, during my maternity leave, I came across web development and I decided to learn how to build webpages from scratch. When I later came to JavaScript, I was excited even more. I love to think about what needs to be done, plan how to do it, how to divide it into smaller logical chunks, how these are interconnected. 
+In 2017, during my maternity leave, I came across web development and I decided to learn how to build webpages from scratch. When I later came to JavaScript, I was excited even more. I love to think about what needs to be done, plan how to do it, how to divide it into smaller logical chunks, how these influence each other. 
 
-I wanted to see the big picture and understand how all the things work together, so I learned also basics of other connected technologies on the backend. 
+I wanted to see also the bigger picture and understand how all the things work together, so I learned also basics of other connected technologies on the backend. 
 
 I learned mostly with online courses (Udemy, FreeCodeCamp, Codecademy and others), in-site courses (mostly by Czechitas) and attended frontend-meetups. 
 
