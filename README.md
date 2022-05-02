@@ -30,9 +30,9 @@ However, I still felt attracted to coding and 3 years later (at the end of April
 I revised the basics of HTML and CSS, and also the theory of JavaScript. 
 I decided to create my own project: [LOGIC-game](https://github.com/marieval/logic-game). (It´s a favorite board game of my son, so I decided to create an electronic version of this game.)
 
-### LOGIC-game
+**LOGIC-game:**
 - I started by simple HTML & CSS, created the wireframe of the JS-logic needed for the game and started the JS-logic and step-wise improved it.
-- I was excited when I stumbled across some bugs and realized that I 
+- I was excited when I realized that after stumbling across some bugs I remember a lot of stuff and am able to find the bugs and solve the problems quite quickly.
 
 ## May 2022
-- My [LOGIC-game](https://github.com/marieval/logic-game) is working (my son already tested it on the phone :-) ), but I still have some plans how to improve it
+- My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have some plans how to improve it
