@@ -24,6 +24,15 @@ And also basics of:
 - Java
 
 In 2019 (at the end of my maternity leave) I planned not to go back to my previous work at the university, but I intended to change my career and go to the world of coding. However, I got an offer to another work-challenge, so I went for it and (for the time being) left the idea of IT. 
-However, I still felt attracted to coding and 3 years later (at the end of April 2022) I got back to it with the plan to revise and expand my knowledge of this topics and to finish my plan of career change. 
+However, I still felt attracted to coding and 3 years later (at the end of April 2022) I got back to it with the plan to revise and expand my knowledge of this topics and to accomplish my plan of a career change. 
 
+## April 2022 (last week of April)
+I revised the basics of HTML and CSS, and also the theory of JavaScript. 
+I decided to create my own project: [LOGIC-game](https://github.com/marieval/logic-game). (It´s a favorite board game of my son, so I decided to create an electronic version of this game.)
 
+### LOGIC-game
+- I started by simple HTML & CSS, created the wireframe of the JS-logic needed for the game and started the JS-logic and step-wise improved it.
+- I was excited when I stumbled across some bugs and realized that I 
+
+## May 2022
+- My [LOGIC-game](https://github.com/marieval/logic-game) is working (my son already tested it on the phone :-) ), but I still have some plans how to improve it
