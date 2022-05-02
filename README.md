@@ -7,7 +7,7 @@ In 2017, during my maternity leave, I came across web development and I decided 
 
 I wanted to see also the bigger picture and understand how all the things work together, so I learned also basics of other connected technologies on the backend. 
 
-I learned mostly with online courses (Udemy, FreeCodeCamp, Codecademy and others), in-site courses (mostly by Czechitas) and attended frontend-meetups. 
+I learned mostly from online courses (Udemy, FreeCodeCamp, Codecademy and others), in-site courses (mostly by Czechitas) and attended frontend-meetups. 
 
 During my way I learned about:
 - HTML5, CSS3, Sass
