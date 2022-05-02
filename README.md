@@ -24,6 +24,6 @@ And also basics of:
 - Java
 
 In 2019 (at the end of my maternity leave) I planned not to go back to my previous work at the university, but I intended to change my career and go to the world of coding. However, I got an offer to another work-challenge, so I went for it and abandoned the area of IT. 
-However, I still felt attracted to coding and 3 years later (at the end of April 2022) I got back to it with the plan to revise and expand my knowledge of this topics and finish my plan of career change. 
+However, I still felt attracted to coding and 3 years later (at the end of April 2022) I got back to it with the plan to revise and expand my knowledge of this topics and to finish my plan of career change. 
 
 
