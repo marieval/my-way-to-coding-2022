@@ -17,7 +17,7 @@ During my way I learned about:
 - Git & GitHub
 - CommandLine
 - Node.js, Express.js
-- 
+ 
 And also basics of:
 - Gulp, Webpack
 - SQL (PostgreSQL, MySQL)
