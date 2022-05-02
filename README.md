@@ -1,4 +1,4 @@
-# My Way To Coding 2022
+# My Way To Coding (2022)
 
 This is a log of my way (back) to coding in 2022.
 
