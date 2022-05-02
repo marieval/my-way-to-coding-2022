@@ -9,7 +9,7 @@ I wanted to see also the bigger picture and understand how all the things work t
 
 I learned mostly from online courses (Udemy, FreeCodeCamp, Codecademy and others), in-site courses (mostly by Czechitas) and attended frontend-meetups. 
 
-During my way I learned about:
+During my way I learned:
 - HTML5, CSS3, Sass
 - JavaScript
 - React
