@@ -42,4 +42,5 @@ I decided to create my own project: [LOGIC-game](https://github.com/marieval/log
 
 ### 3/5/2022 (Tue)
 - I added the action after clicking *New Game* button in my [LOGIC-game](https://github.com/marieval/logic-game) (At first I tried to avoid reload and instead to re-set all the conditions to the initial state, but there was always some issue, so in the end I solved it simply by reloading of the page.)
+- I learned/revised part of *HTTP, AJAX and Promises*
 
