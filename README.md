@@ -38,6 +38,8 @@ I decided to create my own project: [LOGIC-game](https://github.com/marieval/log
 - My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have ideas how to improve it, so it´s not finished yet.
 
 ### 2/5/2022 (Mon)
-- I improved my [LOGIC-game](https://github.com/marieval/logic-game): Added modal at the end of the game. Improved some CSS.
+- I improved my [LOGIC-game](https://github.com/marieval/logic-game): Added *modal* at the end of the game. Improved some *CSS*.
 
+### 3/5/2022 (Tue)
+- I added the action after clicking *New Game* button in my [LOGIC-game](https://github.com/marieval/logic-game)
 
