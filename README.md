@@ -24,7 +24,7 @@ And also basics of:
 - Java
 
 In 2019 (at the end of my maternity leave) I planned not to go back to my previous work at the university, but I intended to change my career and go to the world of coding. However, I got an offer to another work-challenge, so I went for it and (for the time being) left the idea of IT. 
-However, I still felt attracted to coding and 3 years later, in 2022, I got back to it with the plan to revise and expand my knowledge of this topics and to accomplish my plan of a career change. 
+However, I still felt attracted to coding and 3 years later, in 2022, I got back to it with the plan to revise and expand my knowledge of this topics. 
 
 ## April 2022 
 I revised the basics of HTML and CSS, and also the theory of JavaScript. 
