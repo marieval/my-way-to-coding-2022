@@ -24,9 +24,9 @@ And also basics of:
 - Java
 
 In 2019 (at the end of my maternity leave) I planned not to go back to my previous work at the university, but I intended to change my career and go to the world of coding. However, I got an offer to another work-challenge, so I went for it and (for the time being) left the idea of IT. 
-However, I still felt attracted to coding and 3 years later (at the end of April 2022) I got back to it with the plan to revise and expand my knowledge of this topics and to accomplish my plan of a career change. 
+However, I still felt attracted to coding and 3 years later, in 2022, I got back to it with the plan to revise and expand my knowledge of this topics and to accomplish my plan of a career change. 
 
-## April 2022 (last week of April)
+## April 2022 
 I revised the basics of HTML and CSS, and also the theory of JavaScript. 
 I decided to create my own project: [LOGIC-game](https://github.com/marieval/logic-game). (It´s a favorite board game of my son, so I decided to create an electronic version of this game.)
 
@@ -35,12 +35,9 @@ I decided to create my own project: [LOGIC-game](https://github.com/marieval/log
 - I was excited when I realized that after stumbling across some bugs I remember a lot of stuff and am able to find the bugs and solve the problems quite quickly.
 
 ## May 2022
-- My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have ideas how to improve it, so it´s not finished yet.
+My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have ideas how to improve it, so it´s not finished yet.
+- I improved *logic* of the game, added *modal* at the end of the game.
+- I added the action after clicking *New Game* button (At first I tried to avoid reload and instead to re-set all the conditions to the initial state, but there was always some issue, so in the end I solved it simply by reloading of the page.)
 
-### 2/5/2022 (Mon)
-- I improved my [LOGIC-game](https://github.com/marieval/logic-game): Added *modal* at the end of the game. Improved some *CSS*.
-
-### 3/5/2022 (Tue)
-- I added the action after clicking *New Game* button in my [LOGIC-game](https://github.com/marieval/logic-game) (At first I tried to avoid reload and instead to re-set all the conditions to the initial state, but there was always some issue, so in the end I solved it simply by reloading of the page.)
-- I learned/revised part of *HTTP, AJAX and Promises*
+I also revised *AJAX and Promises*
 
