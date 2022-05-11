@@ -40,4 +40,6 @@ My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I 
 - I added the action after clicking *New Game* button (At first I tried to avoid reload and instead to re-set all the conditions to the initial state, but there was always some issue, so in the end I solved it simply by reloading of the page.)
 
 I also revised *AJAX and Promises*
-
+I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.com/course/advanced-javascript-concepts/) to remind myself of the topics: 
+- I went throug the chapters about *JS-engine, Call stack, Memory heap*, what means *"single-threaded"*
+- *Hoisting, Lexical environment,...*
