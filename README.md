@@ -42,5 +42,5 @@ My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I 
 I also revised *AJAX and Promises*
 
 I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.com/course/advanced-javascript-concepts/) to remind myself of the JS-topics: 
-- I went throug the chapters about *JS-engine, Call stack, Memory heap*, what means *"single-threaded"*
+- I went through the chapters about *JS-engine, Call stack, Memory heap*, what means *"single-threaded"*
 - *Hoisting, Lexical environment,...*
