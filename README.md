@@ -52,4 +52,6 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *passing by reference / by value:* primitive types are passed by value, non-primitive types (objects) by reference
 - *dynamic / static typing:* in statically-typed languages (Java, C#,...) we must define what type is the variable. In JS (dynamically typed) the typing is done during the runtime
 - *weekly typed languages:* JS, C, C++, PHP (have type coercion). x *strongly typed languages:* Python, Ruby, C#, Java
+- *functions:* special type of objects - "callable objects". When we invoke them, the *execution context* is created (with *this* and *arguments*), it looks for *variables environment* (what variables are available), and it creates *scope-chain* (what variables are available in parent environment)
+- *Functions:* 1) can be assigned to a variable; 2) can be passed as an argument to another function; 3) can be returned from another function
 - 
