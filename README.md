@@ -42,7 +42,7 @@ My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I 
 I also revised *AJAX and Promises*
 
 I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.com/course/advanced-javascript-concepts/) to remind myself of the JS-topics: 
-- I went through the chapters about *JS-engine, Call stack, Memory heap*, *"single-threaded"*
+- I went through the chapters about *JS-engine, Call stack, Memory heap*, *"single-threaded"*, *Garbage collection* (automatic in JS)
 - *Hoisting:* it´s first going through the code an allocation memory for the variables and functions (if *var / function* are the first words on the line!). *var*: partially hoisted (is hoisted as undefined), *function* is fully hoisted.
 - *Lexical environment, lexical scope:* in JS our lexical scope (where it is defined in code) determines our available variables
 - *Function scope / block scope:* in JS is function scope (*var*: we get to it from the global-scope, even in an if-statement. When we use *const / let*: it´s block-scope
@@ -51,4 +51,5 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *bind():* when we need to have some function called later already with some context (specific *this*)
 - *passing by reference / by value:* primitive types are passed by value, non-primitive types (objects) by reference
 - *dynamic / static typing:* in statically-typed languages (Java, C#,...) we must define what type is the variable. In JS (dynamically typed) the typing is done during the runtime
+- *weekly typed languages:* JS, C, C++, PHP (have type coercion). x *strongly typed languages:* Python, Ruby, C#, Java
 - 
