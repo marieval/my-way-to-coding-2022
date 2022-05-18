@@ -55,4 +55,5 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *functions:* special type of objects - "callable objects". When we invoke them, the *execution context* is created (with *this* and *arguments*), it looks for *variables environment* (what variables are available), and it creates *scope-chain* (what variables are available in parent environment)
 - *Functions:* 1) can be assigned to a variable; 2) can be passed as an argument to another function; 3) can be returned from another function; NOTE: Never initialise a function inside a loop! (Instead make a function and inside it make a loop).
 - *Higher-order functions:* functions returning another function
+- *Closures:* JS-engine ensures that a function has access to all the variables outside of the function within the closure (it puts the variable to a closure, if it´s referenced by a child-function) - Lexical scoping. Benefits: 1) Memory efficient (fn runs only once and then has variables stored in closure). 2) Encapsulation (hiding informations, it´s not visible for the outside / can not be changed from outside)
 
