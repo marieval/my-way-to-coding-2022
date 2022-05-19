@@ -42,20 +42,20 @@ My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I 
 I also revised *AJAX and Promises*
 
 I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.com/course/advanced-javascript-concepts/) to remind myself of the JS-topics: 
-- I went through the chapters about *JS-engine, Call stack, Memory heap*, *"single-threaded"*, *Garbage collection* (automatic in JS)
-- *Hoisting:* it´s first going through the code an allocation memory for the variables and functions (if *var / function* are the first words on the line!). *var*: partially hoisted (is hoisted as undefined), *function* is fully hoisted.
-- *Lexical environment, lexical scope:* in JS our lexical scope (where it is defined in code) determines our available variables
-- *Function scope / block scope:* in JS is function scope (*var*: we get to it from the global-scope, even in an if-statement. When we use *const / let*: it´s block-scope
-- *this-keyword:* has dynamic scope (it´s  important WHERE it was called). BUT if we use *arrow function*: it´s lexically bound! (Earlier it was solved also by *var self = this;* inside of the object).
-- *apply(), call():* we use them to "borrow" a method from another object
-- *bind():* when we need to have some function called later already with some context (specific *this*)
-- *passing by reference / by value:* primitive types are passed by value, non-primitive types (objects) by reference
-- *dynamic / static typing:* in statically-typed languages (Java, C#,...) we must define what type is the variable. In JS (dynamically typed) the typing is done during the runtime
-- *weekly typed languages:* JS, C, C++, PHP (have type coercion). x *strongly typed languages:* Python, Ruby, C#, Java
-- *functions:* special type of objects - "callable objects". When we invoke them, the *execution context* is created (with *this* and *arguments*), it looks for *variables environment* (what variables are available), and it creates *scope-chain* (what variables are available in parent environment)
+- I went through the chapters about *JS-engine, Call stack, Memory heap*, *"single-threaded"*, *Garbage collection* (is automatic in JS)
+- *Hoisting:* it´s first going through the code and allocating memory for the variables and functions (if *var / function* are the first words on the line!). *var*: partially hoisted (is hoisted as undefined), *function* is fully hoisted.
+- *Lexical environment, lexical scope:* in JS our lexical scope (= where it is defined in code) determines our available variables
+- *Function scope / block scope:* in JS is function scope (*var*: we get to it from the global-scope, even in an if-statement. When we use *const / let*: it´s block-scoped
+- *this-keyword:* has dynamic scope (it´s  important where it was CALLED). BUT if we use *arrow function*: it´s lexically bound! (Earlier it was solved also by *var self = this;* inside of the object).
+- *apply(), call():* we use them to "borrow" a method from another object.
+- *bind():* when we need to have some function called later already with some context (specific *this*).
+- *Passing by reference / by value:* primitive types are passed by value, non-primitive types (objects) by reference.
+- *Dynamic / static typing:* in statically-typed languages (Java, C#,...) we must define of what type is the variable. In JS (dynamically typed) the typing is done during the runtime.
+- *Weakly typed languages:* JS, C, C++, PHP (have type coercion). x *Strongly typed languages:* Python, Ruby, C#, Java.
+- *Functions:* special type of objects - "callable objects". When we invoke them, the *execution context* is created (with *this* and *arguments*), it looks for *variables-environment* (what variables are available), and it creates *scope-chain* (what variables are available in parent environment).
 - *Functions:* 1) can be assigned to a variable; 2) can be passed as an argument to another function; 3) can be returned from another function; NOTE: Never initialise a function inside a loop! (Instead make a function and inside it make a loop).
-- *Higher-order functions:* functions returning another function
-- *Closures:* JS-engine ensures that a function has access to all the variables outside of the function within the closure (it puts the variable to a closure, if it´s referenced by a child-function) - Lexical scoping. Benefits: 1) Memory efficient (fn runs only once and then has variables stored in closure). 2) Encapsulation (hiding informations, it´s not visible for the outside / can not be changed from outside)
+- *Higher-order functions:* functions returning another function.
+- *Closures:* JS-engine ensures that a function has access to all the variables outside of the function within the closure (it puts the variable to a closure, if it´s referenced by a child-function) - Lexical scoping. Benefits: 1) Memory efficient (fn runs only once and then has variables stored in closure). 2) Encapsulation (hiding informations, it´s not visible for the outside / can not be changed from outside).
 - *Prototypal inheritance:* an object gets access to methods and properties of another object (its prototype). / Don´t use obj.__proto__ (because of performance). Instead use `let socrates = Object.create(human);` / To find out what is inherited and what is "own": `obj.hasOwnProperty();` and `obj.isPrototypeOf();` / (In Java, C#, ... is *classical inheritance*). 
 -  
 
