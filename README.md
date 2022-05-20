@@ -57,5 +57,8 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Higher-order functions:* functions returning another function.
 - *Closures:* JS-engine ensures that a function has access to all the variables outside of the function within the closure (it puts the variable to a closure, if it´s referenced by a child-function) - Lexical scoping. Benefits: 1) Memory efficient (fn runs only once and then has variables stored in closure). 2) Encapsulation (hiding informations, it´s not visible for the outside / can not be changed from outside).
 - *Prototypal inheritance:* an object gets access to methods and properties of another object (its prototype). / Don´t use obj.__proto__ (because of performance). Instead use `let socrates = Object.create(human);` / To find out what is inherited and what is "own": `obj.hasOwnProperty();` and `obj.isPrototypeOf();` / (In Java, C#, ... is *classical inheritance*). 
--  
+
+- *Object Oriented Programming:* paradigm, how to organise code. / In Java, C#, Ruby, Python. 
+- *Factory functions:* create objects (return new objects).
+- *Object.create():* to create prototype chain. (True prototype-inheritance.)
 
