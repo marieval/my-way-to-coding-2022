@@ -62,5 +62,5 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Object Oriented Programming:* paradigm, how to organise code. / In Java, C#, Ruby, Python. 
 - *Factory functions:* create objects (return new objects).
 - *Object.create():* to create prototype chain. (True prototype-inheritance.)
-- *Constructor functions:* (they don´t return anything) / `function Elf (name, weapon) {this.name = name, this.weapon = weapon};` / To use constructor function we need to use the `new`-keyword: `const peter = new Elf ("Peter", stones")`. / We can add new properties: `Elf.prototype.attack = function () {return ..... }` 
+- *Constructor functions:* (they don´t return anything) / `function Elf (name, weapon) {this.name = name, this.weapon = weapon};` / To use constructor function we use the `new`-keyword: `const peter = new Elf ("Peter", stones")`. / We can add new properties: `Elf.prototype.attack = function () {return ..... }` 
 
