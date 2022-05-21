@@ -53,6 +53,7 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Dynamic / static typing:* in statically-typed languages (Java, C#,...) we must define of what type is the variable. In JS (dynamically typed) the typing is done during the runtime.
 - *Weakly typed languages:* JS, C, C++, PHP (have type coercion). x *Strongly typed languages:* Python, Ruby, C#, Java.
 - *Functions:* special type of objects - "callable objects". When we invoke them, the *execution context* is created (with *this* and *arguments*), it looks for *variables-environment* (what variables are available), and it creates *scope-chain* (what variables are available in parent environment).
+- *Arrow functions:* lexical scope (where it was written)   X   *Regular functions:* dynamic scope (where it was called)
 - *Functions:* 1) can be assigned to a variable; 2) can be passed as an argument to another function; 3) can be returned from another function; NOTE: Never initialise a function inside a loop! (Instead make a function and inside it make a loop).
 - *Higher-order functions:* functions returning another function.
 - *Closures:* JS-engine ensures that a function has access to all the variables outside of the function within the closure (it puts the variable to a closure, if it´s referenced by a child-function) - Lexical scoping. Benefits: 1) Memory efficient (fn runs only once and then has variables stored in closure). 2) Encapsulation (hiding informations, it´s not visible for the outside / can not be changed from outside).
@@ -61,4 +62,5 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Object Oriented Programming:* paradigm, how to organise code. / In Java, C#, Ruby, Python. 
 - *Factory functions:* create objects (return new objects).
 - *Object.create():* to create prototype chain. (True prototype-inheritance.)
+- *Constructor functions:* (they don´t return anything) / `function Elf (name, weapon) {this.name = name, this.weapon = weapon};` / To use constructor function we need to use the `new`-keyword: `const peter = new Elf ("Peter", stones")`. / We can add new properties: `Elf.prototype.attack = function () {return ..... }` 
 
