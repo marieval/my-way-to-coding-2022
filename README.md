@@ -54,13 +54,24 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Weakly typed languages:* JS, C, C++, PHP (have type coercion). x *Strongly typed languages:* Python, Ruby, C#, Java.
 - *Functions:* special type of objects - "callable objects". When we invoke them, the *execution context* is created (with *this* and *arguments*), it looks for *variables-environment* (what variables are available), and it creates *scope-chain* (what variables are available in parent environment).
 - *Arrow functions:* lexical scope (where it was written)   X   *Regular functions:* dynamic scope (where it was called)
+- *`This` in functions inside of methods:* Functions defined inside of methods: `this` is not assigned to object itself, but to the window object!!!
 - *Functions:* 1) can be assigned to a variable; 2) can be passed as an argument to another function; 3) can be returned from another function; NOTE: Never initialise a function inside a loop! (Instead make a function and inside it make a loop).
 - *Higher-order functions:* functions returning another function.
 - *Closures:* JS-engine ensures that a function has access to all the variables outside of the function within the closure (it puts the variable to a closure, if it´s referenced by a child-function) - Lexical scoping. Benefits: 1) Memory efficient (fn runs only once and then has variables stored in closure). 2) Encapsulation (hiding informations, it´s not visible for the outside / can not be changed from outside).
 - *Prototypal inheritance:* an object gets access to methods and properties of another object (its prototype). / Don´t use obj.__proto__ (because of performance). Instead use `let socrates = Object.create(human);` / To find out what is inherited and what is "own": `obj.hasOwnProperty();` and `obj.isPrototypeOf();` / (In Java, C#, ... is *classical inheritance*). 
 
-- *Object Oriented Programming:* paradigm, how to organise code. / In Java, C#, Ruby, Python. 
+- ***Object Oriented Programming:*** paradigm, how to organise code. / In Java, C#, Ruby, Python. 
 - *Factory functions:* create objects (return new objects).
 - *Object.create():* to create prototype chain. (True prototype-inheritance.)
 - *Constructor functions:* (they don´t return anything) / `function Elf (name, weapon) {this.name = name, this.weapon = weapon};` / To use constructor function we use the `new`-keyword: `const peter = new Elf ("Peter", stones")`. / We can add new properties: `Elf.prototype.attack = function () {return ..... }` 
+- *Prototype:* only functions have access to their prototype!
+- *Classes in JS:* are only syntactic sugar (based on prototypes, not true classes as in Java, C#, ...). / All state and properties are inside of the class. / Functions (=properties, what they can do) are not inside of the constructor-function (because constructor-function is run everytime the class is instantiated, but we want to have just link to one definition of the property for all the instantiations => memory-efficient).
+- *Inheritance:* one class is based on another: `class Elf extends Character {constructor(name, weapon, type) {super(name, weapon); this.type = type}}`
+- *4 pillars of OOP:* Encapsulation (objects) // Abstraction (hide the complexity from user) // Inheritance (inherit from other classes) // Polymorphism (ability to use method on different objects and have different outputs based on the parameters)
 
+- ***Functional Programming:*** separation of concerns - functions & data are separated.
+- *1 pillar of FP:* pure functions (Have no side effects. + There is the same output given same input.)
+- *Immutability of objects:* all objects created in FP are immutable! (There is no shared state!)
+- *"Perfect" function:*: Performs only 1 task. / Has return statement. / Is pure. / Has no shared state. / Has immutable state. / Composable. / Predictable.
+- *Idempotence:* given the same input, it gives same output. (When calling x-times, it still has the same result.)
+- 
