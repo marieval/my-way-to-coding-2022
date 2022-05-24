@@ -78,6 +78,6 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 ***OOP x FP:***
 - FP: many operations on fixed data     x    OOP: few operations on common data
 - FP: stateless (immutable state)     x     OOP: stateful (we are modifying state)
-- FP: with pure functions (without side-effekcts)     x     OOP: with side effects (methods manipulate the internal state)
+- FP: with pure functions (without side-effects)     x     OOP: with side effects (methods manipulate the internal state)
 - FP: more declarative (what we want to be doing)     x     OOP: more imperative (how we want it to be done)
 - FP: can be run on many processors (they don´t influence each other, they can work independently)
