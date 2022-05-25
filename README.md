@@ -80,8 +80,8 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Partial application:* call a function with one parameter and the others accept at the second call 
 ```const multiply = (a,b,c) => a*b*c;
 const partialMultiplyBy5 = multiply.bind(null, 5);
-partialMultiplyBy5(4,10); ```
-
+partialMultiplyBy5(4,10); 
+```
 (null: we don´t care about this-argument)
 
 - *Memoization:* special type of caching: if the parameter is not changed, it remembers the result of a function and doesn´t need to calculate it again.
