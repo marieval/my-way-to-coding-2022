@@ -78,7 +78,8 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Closure:* we can use it to create private variables
 - *Currying:* change a function taking multiple parameters to multiple functions taking 1 parameter at a time  
 - *Partial application:* call a function with one parameter and the others accept at the second call 
-```const multiply = (a,b,c) => a*b*c;
+```
+const multiply = (a,b,c) => a*b*c;
 const partialMultiplyBy5 = multiply.bind(null, 5);
 partialMultiplyBy5(4,10); 
 ```
