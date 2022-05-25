@@ -77,13 +77,12 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *Higher order function:* takes a function as an argument / return a function
 - *Closure:* we can use it to create private variables
 - *Currying:* change a function taking multiple parameters to multiple functions taking 1 parameter at a time  
-- *Partial application:* call a function with one parameter and the others accept at the second call 
+- *Partial application:* call a function with one parameter and the others accept at the second call (null: we don´t care about this-argument)
 ```
 const multiply = (a,b,c) => a*b*c;
 const partialMultiplyBy5 = multiply.bind(null, 5);
 partialMultiplyBy5(4,10); 
 ```
-(null: we don´t care about this-argument)
 
 - *Memoization:* special type of caching: if the parameter is not changed, it remembers the result of a function and doesn´t need to calculate it again.
 - *Compose, pipe:* we can combine functions into 1 function (compose: left to right / pipe: right to left).
