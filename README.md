@@ -73,11 +73,21 @@ I go through the course [JavaScript: The Advanced Concepts](https://www.udemy.co
 - *1 pillar of FP:* pure functions (Have no side effects. + There is the same output given same input.)
 - *Immutability of objects:* all objects created in FP are immutable! (There is no shared state!)
 - *"Perfect" function:*: Performs only 1 task. / Has return statement. / Is pure. / Has no shared state. / Has immutable state. / Composable. / Predictable.
-- *Idempotence:* given the same input, it gives same output. (When calling x-times, it still has the same result.)   
+- *Idempotence:* given the same input, it gives same output. (When calling x-times, it still has the same result.)  
+- *Higher order function:* takes a function as an argument / return a function
+- *Closure:* we can use it to create private variables
+- *Currying:* change a function taking multiple parameters to multiple functions taking 1 parameter at a time  
+- *Partial application:* call a function with one parameter and the others accept at the second call 
+```const multiply = (a,b,c) => a*b*c;
+const partialMultiplyBy5 = multiply.bind(null, 5);
+partialMultiplyBy5(4,10); ``` (null: we don´t care about this-argument)
+- *Memoization:* special type of caching: if the parameter is not changed, it remembers the result of a function and doesn´t need to calculate it again.
+- *Compose, pipe:* we can combine functions into 1 function (compose: left to right / pipe: right to left).
+- *Arity:* number of arguments a function takes (it´s good to have 1-2 arguments in a function).   
 
 ***OOP x FP:***
 - FP: many operations on fixed data     x    OOP: few operations on common data
 - FP: stateless (immutable state)     x     OOP: stateful (we are modifying state)
 - FP: with pure functions (without side-effects)     x     OOP: with side effects (methods manipulate the internal state)
 - FP: more declarative (what we want to be doing)     x     OOP: more imperative (how we want it to be done)
-- FP: can be run on many processors (they don´t influence each other, they can work independently)
+- FP: can be run on many processors (they don´t influence each other, they can work independently), it´s good in parallelic (distributed) systems
