@@ -96,5 +96,5 @@ partialMultiplyBy5(4,10);
 - FP: can be run on many processors (they don´t influence each other, they can work independently), it´s good in parallelic (distributed) systems
 
 **Modules:**
-- *Module pattern:* (earlier: just global scope + function scope (+block scope with const/let)), used IFFE
+- *Module pattern:* (earlier: just global scope + function scope (+block scope with const/let)), used IIFE
 - 
