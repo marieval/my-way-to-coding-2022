@@ -94,3 +94,7 @@ partialMultiplyBy5(4,10);
 - FP: with pure functions (without side-effects)     x     OOP: with side effects (methods manipulate the internal state)
 - FP: more declarative (what we want to be doing)     x     OOP: more imperative (how we want it to be done)
 - FP: can be run on many processors (they don´t influence each other, they can work independently), it´s good in parallelic (distributed) systems
+
+**Modules:**
+- *Module pattern:* (earlier: just global scope + function scope (+block scope with const/let)), used IFFE
+- 
