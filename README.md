@@ -95,6 +95,14 @@ partialMultiplyBy5(4,10);
 - FP: more declarative (what we want to be doing)     x     OOP: more imperative (how we want it to be done)
 - FP: can be run on many processors (they don´t influence each other, they can work independently), it´s good in parallelic (distributed) systems
 
+**Asynchronous JS:** 
+- *Job queue:* with promises we have also *job queue* = microtask-queue (earlier: only callbeck queue - task queue). Job queue has higher priority than callback queue. Because job-queue is implemented by the browser, there are differencies between individual browsers.
+- *Promise.race():* returns just the first-resolved promise.
+- *Promise.paralell():* the promises are done in paralell.
+- *Promise.sequence():* after one promise is resolved, the other is done.
+- *Promise.all():* resolves only if both/all the promises resolve (are fulfilled) ->don´t forget to `catch`!
+- *Promise.allSettled():* resolves even when one of the promises is rejected.
+
 **Modules:**
 - *Module pattern:* (earlier: just global scope + function scope (+block scope with const/let)), used IIFE
 - 
