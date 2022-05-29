@@ -104,5 +104,7 @@ partialMultiplyBy5(4,10);
 - *Promise.allSettled():* resolves even when one of the promises is rejected.
 
 **Modules:**
-- *Module pattern:* (earlier: just global scope + function scope (+block scope with const/let)), used IIFE
+- *Module pattern:* (earlier: just global scope + function scope (+block scope with const/let)), used IIFE. Available are only the things which we return. Disadvantage: order of scripts matters!
+- *CommonJS:*  `module.export = {....};` and `var module = require("modul1");` / Is synchronous. Using *browserify* -> bundle.js (combines all thescripts to one js-file)
+- *ES6 modules:* `import module1 from "Module1";` and`export function jump() {....};`. It´s necessary to define in HTML `<script type = "module"}....</script>` and it must be run from the server (e.g. live-server)!!!
 - 
