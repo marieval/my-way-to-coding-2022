@@ -107,4 +107,14 @@ partialMultiplyBy5(4,10);
 - *Module pattern:* (earlier: just global scope + function scope (+block scope with const/let)), used IIFE. Available are only the things which we return. Disadvantage: order of scripts matters!
 - *CommonJS:*  `module.export = {....};` and `var module = require("modul1");` / Is synchronous. Using *browserify* -> bundle.js (combines all thescripts to one js-file)
 - *ES6 modules:* `import module1 from "Module1";` and`export function jump() {....};`. It´s necessary to define in HTML `<script type = "module"}....</script>` and it must be run from the server (e.g. live-server)!!!
+
+**Error handling:**
+- error is a feature, not a mistake. It stops the program and throws an error. By catching an error: the program doesn´t stop. An error has name, message, stack (where it happened). If the error is not handled, it goes down the call-stack down to the browser (there it´s the runtime catch `oneerror()` / In node.js it´s `process.on("uncoughtException")`). 
+- Several types of errors: SyntaxError, ReferenceError, ... 
+- Node.js handles error differently - it´s another runtime
+- *Try-catch-(finally):* works only with syncrhonous code! 
+- *Async Error Handling:* with promises we need `.catch(err => {console.log(err)}`. / Inside `async function` can be used also try-catch.
+- Error object can be extended: it´s useful e.g. at Node-server when we don´t want others to see the details of the error. 
+- Try to handle your errors! Protect it from unexpected behavior! 
+- 
 - 
