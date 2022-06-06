@@ -116,4 +116,8 @@ partialMultiplyBy5(4,10);
 - *Async Error Handling:* with promises we need `.catch(err => {console.log(err)}`. / Inside `async function` can be used also try-catch.
 - Error object can be extended: it´s useful e.g. at Node-server when we don´t want others to see the details of the error. 
 - Try to handle your errors! Protect it from unexpected behavior! 
-- 
+
+**NPM:**
+- Node-package-manager
+- packages installed globally or locally (only for the individual project or globally on the computer)
+- dependencies vs. dev-dependencies
