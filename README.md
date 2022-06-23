@@ -1,16 +1,16 @@
-# My Way To Coding (2022)
+# My Way (Back) To Coding (2022)
 
 This is a log of my way (back) to coding in 2022.
 
 ## Intro
-In 2017, during my maternity leave, I came across web development and I decided to learn how to build webpages from scratch. When I later came to JavaScript, I was excited even more. I love to think about what needs to be done, plan how to do it, how to divide it into smaller logical chunks, how these influence each other. 
+In 2017 (during my maternity leave) I came across web development and enjoyed learning how to build webpages from scratch. It was like magic! :-) When I later came to JavaScript, I was excited even more. I love to think about what needs to be done, plan how to do it, how to divide it into smaller logical chunks, how these influence each other. 
 
 I wanted to see also the bigger picture and understand how all the things work together, so I learned also basics of other connected technologies on the backend. 
 
-I learned mostly from online courses (Udemy, FreeCodeCamp, Codecademy and others), in-site courses (mostly by Czechitas) and attended frontend-meetups. 
+I learned mostly from various online courses (Udemy, FreeCodeCamp, Codecademy and others), and later (when the family-situation allowed it) also in-site courses (mostly by Czechitas) and attended frontend-meetups. 
 
 During my way I learned about:
-- HTML5, CSS3, Sass
+- HTML5, CSS3, Sass 
 - JavaScript
 - React
 - JQuery, Bootstrap, Tachyons
@@ -23,8 +23,8 @@ And also basics of:
 - SQL (PostgreSQL, MySQL)
 - Java
 
-In 2019 (at the end of my maternity leave) I planned not to go back to my previous work at the university, but I intended to change my career and go to the world of coding. However, I got an offer to another work-challenge, so I went for it and (for the time being) left the idea of IT. 
-However, I still felt attracted to coding and 3 years later, in 2022, I got back to it with the plan to revise and expand my knowledge of this topics. 
+In 2019 (at the end of my maternity leave) I was so excited about this area, that I planned not to go back to my previous work at the university, but I decided to change my career and go to the world of coding. However, when I was handing my notice to my boss, she was interested in my motivations and plans for the future, and finally I got an offer to another work-challenge. It was really hard to find the final decision, but I went for it and (for the time being) left the idea of IT. At this position, I learned a lot, had many successes, discovered new areas, it has been a great experience. 
+But 3 years later, in 2022, I still feel attracted to coding. So I got back to it and started again to revise and expand my knowledge of these topics. 
 
 ## April 2022 
 I revised the basics of HTML and CSS, and also the theory of JavaScript. 
