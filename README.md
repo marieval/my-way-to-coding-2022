@@ -128,3 +128,14 @@ I revised some stuff from the course [The Complete Web Developer in 2022: Zero t
 - CommandLine
 - Fundamentals of React
 
+## July 2022
+I came accross the term *"headless approach"* and searched more about the meaning: 
+**Headless x Coupled x Decoupled CMS:**
+- Coupled CMS: contains two tightly connected parts (frontend & backend). Example of coupled CMS: WordPress
+- Headless CMS: without frontend part. They distribute their content to other systems (websites, mobile apps, social networks, mailers,...). The content can be used on different systems and platforms. 
+- Decoupled CMS: contains FE-part, but the architecture strictly separates FE and BE (so that eventually only the FE part can be completely changed / switched to other technology).
+**Types of headless CMS:**
+- *API-based headless CMS:* The content is stored in databases and are served through API (usually REST or GraphQL). Examples: Contentful, DatoCMS, Strapi.
+- *Git-based headless CMS:* They don´t store content in databases, instead they use Git. Examples: Netlify CMS, Jekyll Admin, Forestry.
+
+ 
