@@ -121,3 +121,10 @@ partialMultiplyBy5(4,10);
 - Node-package-manager
 - packages installed globally or locally (only for the individual project or globally on the computer)
 - dependencies vs. dev-dependencies
+
+## June 2022
+I revised some stuff from the course [The Complete Web Developer in 2022: Zero to Mastery](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/): 
+- DOM manipulation
+- CommandLine
+- Fundamentals of React
+
