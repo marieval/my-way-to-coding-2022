@@ -129,7 +129,7 @@ I revised some stuff from the course [The Complete Web Developer in 2022: Zero t
 - Fundamentals of React
 
 ## July 2022
-I came accross the term ***"headless approach"*** and searched more about what that means (overview [here](https://www.strafelda.cz/headless-cms)): 
+I came accross the term ***"headless solution"*** and searched more about what that means (overview [here](https://www.strafelda.cz/headless-cms)): 
    
 **Headless x Coupled x Decoupled CMS:**
 - *Coupled CMS:* contains two tightly connected parts (frontend & backend). Example of coupled CMS: WordPress
