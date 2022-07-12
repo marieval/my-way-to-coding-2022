@@ -128,6 +128,8 @@ I revised some stuff from the course [The Complete Web Developer in 2022: Zero t
 - CommandLine
 - Fundamentals of React
 
+I was also thinking about joining some simple open-source project to practice my knowledge. I searched for some projects, found some information and websites (but these required more experience than I have). So for this moment I left this idea.
+
 ## July 2022
 I came accross the term ***"headless solution"*** and searched more about what that means (overview [here](https://www.strafelda.cz/headless-cms)): 
    
