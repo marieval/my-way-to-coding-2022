@@ -131,20 +131,15 @@ I revised some stuff from the course [The Complete Web Developer in 2022: Zero t
 I was also thinking about joining some simple open-source project to practice my knowledge. I searched for some projects, found some information and websites (but these required more experience than I have). So for this moment I left this idea.
 
 ## July 2022
-I came accross the term ***"headless solution"*** and searched more about what that means (overview [here](https://www.strafelda.cz/headless-cms)): 
+I came accross the term ***"headless solution"*** and searched more about what that means: *Headless* means software application or program without frontend (it´s connected to another FE-application or interface through API).
    
 **Headless x Coupled x Decoupled CMS:**
 - *Coupled CMS:* contains two tightly connected parts (frontend & backend). Example of coupled CMS: WordPress
 - *Headless CMS:* without frontend part. They distribute their content to other systems (websites, mobile apps, social networks, mailers,...). The content can be used on different systems and platforms. 
-- Decoupled CMS: contains FE-part, but the architecture strictly separates FE and BE (so that eventually only the FE part can be completely changed / switched to other technology).
+- *Decoupled CMS:* contains FE-part, but the architecture strictly separates FE and BE (so that eventually only the FE part can be completely changed / switched to other technology).
    
 **Types of headless CMS:**
 - *API-based headless CMS:* The content is stored in databases and are served through API (usually REST or GraphQL). Examples: Contentful, DatoCMS, Strapi.
 - *Git-based headless CMS:* They don´t store content in databases, instead they use Git. Examples: Netlify CMS, Jekyll Admin, Forestry.
 
-**Advantages of headless systems:**
-- Centralised storage of data (can be then distributed to different places and systems)
-- Change of frontend is much easier
-- Higher security (it´s easier to properly secure the API than whole website)
-- Scalability (lower need for performance)
-- Higher flexibility (various technologies and solutions can be chosen for processing of the data)
+**Advantages of headless systems:** Centralised storage of data (can be then distributed to different places and systems). Change of frontend is much easier. Higher security (it´s easier to properly secure the API than whole website). Scalability (lower need for performance). Higher flexibility (various technologies and solutions can be chosen for processing of the data).
