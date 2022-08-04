@@ -143,3 +143,18 @@ I came accross the term ***"headless solution"*** and searched more about what t
 - *Git-based headless CMS:* They don´t store content in databases, instead they use Git. Examples: Netlify CMS, Jekyll Admin, Forestry.
 
 **Advantages of headless systems:** Centralised storage of data (can be then distributed to different places and systems). Change of frontend is much easier. Higher security (it´s easier to properly secure the API than whole website). Scalability (lower need for performance). Higher flexibility (various technologies and solutions can be chosen for processing of the data).
+
+## August 2022
+**Big O:**
+- O(1) --> constant time / (No loops)
+- O(log N) --> logarithmic / (usually searching algorithms have log n if they are sorted (binary search))
+- O(n) --> linear time / (for loops, while loops through n items)
+- O(n log(n)) --> Log linear / (usually sorting operations)
+- O(n^2) --> quadratic time / (every element in a collection needs to be compared to ever other element. Two nested loops)
+- O(2^n) --> exponential / (recursive algorithms that solves a problem of size N)
+- O(n!) -> factorial / (you are adding a loop for every element)
+- Iterating through half a collection is still O(n)
+- Two separate collections: O(a*b)
+
+
+
