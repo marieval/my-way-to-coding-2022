@@ -156,5 +156,10 @@ I came accross the term ***"headless solution"*** and searched more about what t
 - Iterating through half a collection is still O(n)
 - Two separate collections: O(a*b)
 
+**Good code:** 
+- Readable
+- Speed / Time complexity (operations, comparisons, looping, outside function calls)
+- Memory / Space complexity (variables, data structures, function calls, allocations)
+
 
 
