@@ -167,8 +167,8 @@ I came accross the term ***"headless solution"*** and searched more about what t
 
 **React:**
 - with *setState* we should use callback function, so that the code is more clear and readable (the second callback runs after the first is done => expected result):  
-
-```this.setState(
+```
+this.setState(
       () => { return: { name: "Maru"}},
       () => { console.log(this.state)}
    );
