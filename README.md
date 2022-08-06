@@ -166,7 +166,8 @@ I came accross the term ***"headless solution"*** and searched more about what t
 - by using `npx create-react-app` we use the CRA to start our project and then it´s deleted. (Earlier we had to use `npm create-react-app` and install CRA locally or globally)
 
 **React:**
-- with *setState* we should use callback function, so that the code is more clear and readable (the second callback runs after the first is done => expected result):     
+- with *setState* we should use callback function, so that the code is more clear and readable (the second callback runs after the first is done => expected result):  
+
 ```this.setState(
       () => { return: { name: "Maru"}},
       () => { console.log(this.state)}
