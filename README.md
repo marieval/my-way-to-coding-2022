@@ -166,10 +166,14 @@ I came accross the term ***"headless solution"*** and searched more about what t
 - by using `npx create-react-app` we use the CRA to start our project and then it´s deleted. (Earlier we had to use `npm create-react-app` and install CRA locally or globally)
 
 **React:**
-- with *setState* we should use callback function, so that the code is more clear and readable (the second callback runs after the first is done => expected result):  
+- with *setState* we should use callback function, so that the code is more clear and readable (the second callback runs after the state is completely updated => expected result):  
 ```
 this.setState(
       () => { return: { name: "Maru"}},
       () => { console.log(this.state)}
    );
 ```
+- *Flow in React:* Constructor runs -> initializes the state -> render the initial component UI -> componentDidMount + update state -> re-render the UI with the updated state.
+- *Re-rendering of a component:* 1) when setState is called, 2) when props have changed; (3) forceUpdate() - this shouldn´t be used).
+- class-components have lifecycle methods (componentDidMount, componentDidUpdate, componentWillUnmount)
+- functional-components don´t have lifecycle methods
