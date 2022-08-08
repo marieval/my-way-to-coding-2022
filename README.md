@@ -175,5 +175,8 @@ this.setState(
 ```
 - *Flow in React:* Constructor runs -> initializes the state -> render the initial component UI -> componentDidMount + update state -> re-render the UI with the updated state.
 - *Re-rendering of a component:* 1) when setState is called, 2) when props have changed; (3) forceUpdate() - this shouldn´t be used).
-- class-components have lifecycle methods (componentDidMount, componentDidUpdate, componentWillUnmount)
-- functional-components don´t have lifecycle methods
+- *Class-components* have lifecycle methods (componentDidMount, componentDidUpdate, componentWillUnmount) and methods like `setState()`. In class-components only render() is re-run.
+- *Functional-components* don´t have lifecycle methods, they have hooks (e.g. `useState()`). In functional-components the whole function/component is re-run (when props or state change).
+- 
+
+- 
