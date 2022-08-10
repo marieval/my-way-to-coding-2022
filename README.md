@@ -177,6 +177,12 @@ this.setState(
 - *Re-rendering of a component:* 1) when setState is called, 2) when props have changed; (3) forceUpdate() - this shouldn´t be used).
 - *Class-components* have lifecycle methods (componentDidMount, componentDidUpdate, componentWillUnmount) and methods like `setState()`. In class-components only render() is re-run.
 - *Functional-components* don´t have lifecycle methods, they have hooks (e.g. `useState()`). In functional-components the whole function/component is re-run (when props or state change).
-- 
-
-- 
+**Routing in React:*
+- *React-Router:* v6 is not backwards compatible with v5! 
+-  *BrowserRouter* component: import it to index.js, wrap with this component our whole app.
+-  *Routes, Route:* import it in App.js, wrap all the routes with <Routes> component. Specify individual routes inside: `<Route path="/" element={<Homepage />}>`. (When there is `index` as a parameter of a route, it´s rendered as a default route/component.)
+- *Outlet:* compontent `<Outlet />` (from react-router-dom) helps us with nesting the routes - it tells where the other portions of code are supposed to be positioned.
+- *Fragment:* component `<Fragment />` (imported from react) can serve as wrapping component instead of a div - it renders to nothing (so there are no unnecessary divs in the end)
+- *Link:* from react-router-dom, `<link classname="nav-link" to="/shop">SHOP</Link>`. 
+- *Using svg in react:* we import ReactComponent (`import { ReactComponent as MyLogo } from "../../assets/myLogo.svg;` and then we can us it as a component `<MyLogo className="logo" />`
+ 
