@@ -187,4 +187,4 @@ this.setState(
 - *Using svg in react:* we import ReactComponent (`import { ReactComponent as MyLogo } from "../../assets/myLogo.svg;` and then we can us it as a component `<MyLogo className="logo" />`
 
 **GitHub & Markdown:**
-- I like using markdown (I use it even for notes-taking (in Obsidian)) and I just came across some new things there: `~~Strike through~~` is this: ~~Strike through~~, subscript `H~2~0` makes this: H~2~0, superscript `X^2^` makes this: X^2^.
+- I like using markdown (I use it even for notes-taking (in Obsidian)) and I just came across some new things there: `~~Strike through~~` is this: ~~Strike through~~, subscript `H<sub>2</sub>0` makes this: H<sub>2</sub>0, superscript `X<sup>2</sup>` makes this: X<sup>2</sup>.
