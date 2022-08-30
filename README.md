@@ -176,8 +176,8 @@ this.setState(
 - *Flow in React:* Constructor runs -> initializes the state -> render the initial component UI -> componentDidMount + update state -> re-render the UI with the updated state.
 - *Re-rendering of a component:* 1) when setState is called, 2) when props have changed; (3) forceUpdate() - this shouldn´t be used).
 - *Class-components* have lifecycle methods (componentDidMount, componentDidUpdate, componentWillUnmount) and methods like `setState()`. In class-components only render() is re-run.
-- *Functional-components* don´t have lifecycle methods, they have hooks (e.g. `useState()`). In functional-components the whole function/component is re-run (when props or state change).
-**Routing in React:*
+- *Functional-components* don´t have lifecycle methods, they have hooks (e.g. `useState()`). In functional-components the whole function/component is re-run (when props or state change).   
+**Routing in React:**
 - *React-Router:* v6 is not backwards compatible with v5! 
 -  *BrowserRouter* component: import it to index.js, wrap with this component our whole app.
 -  *Routes, Route:* import it in App.js, wrap all the routes with <Routes> component. Specify individual routes inside: `<Route path="/" element={<Homepage />}>`. (When there is `index` as a parameter of a route, it´s rendered as a default route/component.)
@@ -188,3 +188,7 @@ this.setState(
 
 **GitHub & Markdown:**
 - I like using markdown (I use it even for notes-taking (in Obsidian)) and I just came across some new things there: `~~Strike through~~` is this: ~~Strike through~~, subscript `H<sub>2</sub>0` makes this: H<sub>2</sub>0, superscript `X<sup>2</sup>` makes this: X<sup>2</sup>.
+
+**Data Structures - Arrays:**
+- lookup: O(1) / push: O(1) / insert: O(n) / delete: O(n)
+- difference between static and dynamic arrays (according to language - e.g. C++ has static arrays - the size of the array must be allocated ahead; / arrays in JavaScript, Python, arraylists in Java: are dynamic - the memory is not allocated ahead, but it is done dynamically). With dynamic arrays: according to the situtation, append/push can be O(n)!!!
