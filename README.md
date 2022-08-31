@@ -189,6 +189,12 @@ this.setState(
 **GitHub & Markdown:**
 - I like using markdown (I use it even for notes-taking (in Obsidian)) and I just came across some new things there: `~~Strike through~~` is this: ~~Strike through~~, subscript `H<sub>2</sub>0` makes this: H<sub>2</sub>0, superscript `X<sup>2</sup>` makes this: X<sup>2</sup>.
 
-**Data Structures - Arrays:**
-- lookup: O(1) / push: O(1) / insert: O(n) / delete: O(n)
+**Arrays:**
+- search: O(n) / lookup: O(1) / push: O(1) / insert: O(n) / delete: O(n). (Lookup: finding the keys. Search: look for keys when we don´t know the keys)
 - difference between static and dynamic arrays (according to language - e.g. C++ has static arrays - the size of the array must be allocated ahead; / arrays in JavaScript, Python, arraylists in Java: are dynamic - the memory is not allocated ahead, but it is done dynamically). With dynamic arrays: according to the situtation, append/push can be O(n)!!!
+- *Pros of arrays:* fast lookup, fast push/pop, ordered in memory. *Cons of arrays:* slow insert, slow delete
+
+**Hash-tables:**
+- in various languages: objects in JS, dictionaries in Python, maps in Java, hashes in Ruby
+- search: O(1) / insert: O(1) / lookup: O(1) / delete: O(1). // Lookup can be O(n), when hash collisions happen!  (Lookup: finding the keys. Search: look for keys when we don´t know the keys)
+- in JS are also *maps* (`const a = new Map();`): keys in maps can be any data-type and it maintains the insert-order (-> difference from objects)
