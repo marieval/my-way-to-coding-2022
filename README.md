@@ -198,3 +198,17 @@ this.setState(
 - in various languages: objects in JS, dictionaries in Python, maps in Java, hashes in Ruby
 - search: O(1) / insert: O(1) / lookup: O(1) / delete: O(1). // Lookup can be O(n), when hash collisions happen!  (Lookup: finding the keys. Search: look for keys when we don´t know the keys)
 - in JS are also *maps* (`const a = new Map();`): keys in maps can be any data-type and it maintains the insert-order (-> difference from objects)
+- *Pros of hash tables:* fast lookups (without collisions -> possible solution of collision: linked list), fast inserts, flexible keys. *Cons of hash tables:* unordered, slow key iteration.
+- With using hash tables we can improve time complexity (but tradeoff: increased space complexity)
+
+**Linked lists:**
+- each node contains a value + pointer to the next node. The last element (tail) points to null.
+- doubly linked lists: each node contains a value + pointer to the next node + pointer to the previous node
+- nodes of linked lists are scattered in memory => traversing is slower than in arrays (is ordered in memory, on the same place)
+- not pre-built in JS. 
+- prepend: O(1) / append: O(1) / lookup: O(n) / insert: O(n) / delete: O(n)
+- *Singly linked lists:* take less memory, are quicker for insertion and deletion. BUT can´t be traversed from the end.
+- *Doubly linked lists:* take more memory, can be traversed both from the beginning and the end.
+- *Pros of linked lists:* fast insertion, fast deletion, are ordered, have flexible size. *Cons of linked lists:* Slow lookup, take up more memory.
+
+
