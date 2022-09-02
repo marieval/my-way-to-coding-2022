@@ -214,6 +214,7 @@ this.setState(
 ## September 2022
 **Stacks & Queues:**
 - linear datastructures, can be traversed sequentially, accessed can be only first or last element.
+- *Pros of stacks&queues:* fast operations, fast peek, ordered. *Cons of stacks&queues:* slow lookup.
 **Stacks:** 
 - lookup: O(n) / pop: O(1) / push: O(1) / peek: O(1) (peek = view the last item)
 - first in - last out (LIFO)
