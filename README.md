@@ -211,4 +211,18 @@ this.setState(
 - *Doubly linked lists:* take more memory, can be traversed both from the beginning and the end.
 - *Pros of linked lists:* fast insertion, fast deletion, are ordered, have flexible size. *Cons of linked lists:* Slow lookup, take up more memory.
 
+## September 2022
+**Stacks & Queues:**
+- linear datastructures, can be traversed sequentially, accessed can be only first or last element.
+**Stacks:** 
+- lookup: O(n) / pop: O(1) / push: O(1) / peek: O(1) (peek = view the last item)
+- first in - last out (LIFO)
+- important in language-specific engines, in browser history, undo-actions,...
+- can be implemented using arrays (are quicker in lookup, cached in memory in one place) or linked-lists (more space (hold pointers), have more dynamic memory, can increase the size) -> decide about choosing according to operations performed
+**Queues:** 
+- first in - first out (FIFO)
+- lookup: O(n) / enqueue: O(1) / dequeue: O(1) / peek: O(1)  (Dequeue = to take first item away)
+- can be implemented using linked-lists (NOT using arrays as these are unefficient when removing elements from the beginning)
+
+
 
