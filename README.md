@@ -227,5 +227,10 @@ this.setState(
 - lookup: O(n) / enqueue: O(1) / dequeue: O(1) / peek: O(1)  (Dequeue = to take first item away)
 - can be implemented using linked-lists (NOT using arrays as these are unefficient when removing elements from the beginning)
 
+**Trees:**
+- Binary tree: each node has 0/1/2 nodes, each node can have only 1 parent node. *Perfect BT:* all nodes have just 2 children. *Full BT:* all nodes have 0 or 2 children. 
+- Perfect BT: in next level 2-times more nodes than in previous level. Amount of nodes in last level = sum of all other levels + 1. / `Number of nodes = 2^number-of-levels - 1`.
+- *Binary search-tree:* lookup O(log n) / insert O(log n) / delete O(log n). / Left child: lower; right child: higher. In unbalanced-search-trees: lookup, insert and delete can get to O(n)!
+- *Pros of BST:* better than O(n), ordered, flexible size. *Cons of BST:* There are no O(1) operations.
 
 
