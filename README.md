@@ -235,7 +235,10 @@ this.setState(
 - *AVL tree & Red/black tree:* trees that automatically rebalance
 - *Binary heap:* child nodes are always smaller (in max-heap). Not so well organised as trees. Used in data-storage, in priority queues, sorting algorithms. / lookup: O(n) / insert: O(log n) / delete: O(log n). Heaps add a value to the tree from left to right and then it bubbles up. Binary heaps are memory-efficient. *Pros:* better than O(n), nodes have priority, flexible size, fast insert. *Cons:* slow lookup.
 - *Tries:* similar to trees, for strings (used in autocompletion,...). Memory and speed efficient. O(lengt-of-the-word)
-- 
-- 
 
+**Graphs:**       
+- Node = vertex. / Edge = link between nodes.     
+- *Types of graphs:* directed x undirected / weighted x unweighted (have weight of the links) / cyclic x acyclic.     
+- *Ways to describe graphs:* Edge list, Adjacency list, Adjacency matrix.     
+- *Pros of graphs:* show relationships. *Cons of graphs:* scaling is hard.
 
