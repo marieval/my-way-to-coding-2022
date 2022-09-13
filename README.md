@@ -5,11 +5,11 @@ This is a log of my way (back) to coding in 2022.
 ## Intro
 In 2017 (during my maternity leave) I came across web development and enjoyed learning how to build webpages from scratch. It was like magic! :-) When I later came to JavaScript, I was excited even more. I love to think about what needs to be done, plan how to do it, how to divide it into smaller logical chunks, how these influence each other. 
 
-I wanted to see also the bigger picture and understand how all the things work together, so I learned also basics of other connected technologies on the backend. 
+I wanted to see the bigger picture and understand how all the things work together, so I learned also basics of other connected technologies on the backend. 
 
 I learned mostly from various online courses (Udemy, FreeCodeCamp, Codecademy and others), and later (when the family-situation allowed it) also in-site courses (mostly by Czechitas) and attended frontend-meetups. 
 
-During my way I learned about:
+During my way I learned:
 - HTML5, CSS3, Sass 
 - JavaScript
 - React
@@ -23,7 +23,7 @@ And also basics of:
 - SQL (PostgreSQL, MySQL)
 - Java
 
-In 2019 (at the end of my maternity leave) I was so excited about this area, that I planned not to go back to my previous work at the university, but I decided to change my career and go to the world of coding. However, when I was handing my notice to my boss, she was interested in my motivations and plans for the future, and finally I got an offer to another work-challenge. It was really hard to find the final decision, but I went for it and (for the time being) left the idea of IT. At this position, I learned a lot, had many successes, discovered new areas, it has been a great experience. 
+In 2019 (at the end of my maternity leave) I was so excited about this area, that I planned not to go back to my previous work at the university, but I decided to change my career and go to the world of coding. However, when I was handing my notice to my boss, she was interested in my motivations and plans for the future, and finally I got an offer to another work-challenge. It was really hard to find the final decision, but I went for it and (for the time being) left the idea of IT. At this position, I learned a lot, had many challenges, discovered new areas and it has been a great experience. 
 But 3 years later, in 2022, I still feel attracted to coding. So I got back to it and started again to revise and expand my knowledge of these topics. 
 
 ## April 2022 
@@ -32,10 +32,10 @@ I decided to create my own project: [LOGIC-game](https://github.com/marieval/log
 
 **LOGIC-game:**
 - I started by simple HTML & CSS, created the wireframe of the JS-logic needed for the game and started the JS-logic and step-wise improved it.
-- I was excited when I realized that after stumbling across some bugs I remember a lot of stuff and am able to find the bugs and solve the problems quite quickly.
+- I was excited when I realized that after stumbling across some bugs I remember a lot of stuff and am able to find the bugs and solve the problems quite quickly. Even when I don´t remember the details, I often know what to look for as I already heard about the problem earlier.
 
 ## May 2022
-My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have ideas how to improve it, so it´s not finished yet.
+My [LOGIC-game](https://github.com/marieval/logic-game) is working great, but I still have ideas how to improve it, so it´s not finished.
 - I improved *logic* of the game, added *modal* at the end of the game.
 - I added the action after clicking *New Game* button (At first I tried to avoid reload and instead to re-set all the conditions to the initial state, but there was always some issue, so in the end I solved it simply by reloading of the page.)
 
@@ -128,7 +128,7 @@ I revised some stuff from the course [The Complete Web Developer in 2022: Zero t
 - CommandLine
 - Fundamentals of React
 
-I was also thinking about joining some simple open-source project to practice my knowledge. I searched for some projects, found some information and websites (but these required more experience than I have). So for this moment I left this idea.
+I wanted to join a simple open-source project to practice my knowledge. I searched for some projects but these required more experience than I have. So for this moment I left this idea.
 
 ## July 2022
 I came accross the term ***"headless solution"*** and searched more about what that means: *Headless* means software application or program without frontend (it´s connected to another FE-application or interface through API).
@@ -150,7 +150,7 @@ I came accross the term ***"headless solution"*** and searched more about what t
 - O(log N) --> logarithmic / (usually searching algorithms have log n if they are sorted (binary search))
 - O(n) --> linear time / (for loops, while loops through n items)
 - O(n log(n)) --> Log linear / (usually sorting operations)
-- O(n^2) --> quadratic time / (every element in a collection needs to be compared to ever other element. Two nested loops)
+- O(n^2) --> quadratic time / (every element in a collection needs to be compared to every other element. Two nested loops)
 - O(2^n) --> exponential / (recursive algorithms that solves a problem of size N)
 - O(n!) -> factorial / (you are adding a loop for every element)
 - Iterating through half a collection is still O(n)
@@ -245,3 +245,4 @@ this.setState(
 **Recursion:**
 - It´s a function that refers to itself inside of the function.
 - Good for tasks that have repeated subtasks to do.
+- Every recursive function needs to have *a base case* (= a stop).
