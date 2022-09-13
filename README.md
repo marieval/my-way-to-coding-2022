@@ -242,3 +242,6 @@ this.setState(
 - *Ways to describe graphs:* Edge list, Adjacency list, Adjacency matrix.     
 - *Pros of graphs:* show relationships. *Cons of graphs:* scaling is hard.
 
+**Recursion:**
+- It´s a function that refers to itself inside of the function.
+- Good for tasks that have repeated subtasks to do.
