@@ -146,6 +146,7 @@ I came accross the term ***"headless solution"*** and searched more about what t
 
 ## August 2022
 **Big O:**
+- [Big O cheatsheet](https://www.bigocheatsheet.com/)
 - O(1) --> constant time / (No loops)
 - O(log N) --> logarithmic / (usually searching algorithms have log n if they are sorted (binary search))
 - O(n) --> linear time / (for loops, while loops through n items)
@@ -251,3 +252,9 @@ this.setState(
 - *Tail call optimization:* methods in various languages that make recursion less memory-demanding.
 - *When to use recursion:* traversing or searching through trees and graphs: Every time we are using a tree or converting something into a tree, consider recursion! 
 
+**Sorting:**
+- In every language sort methods work differently. In JS `array.sort()` converts the numbers in the array into strings! (The complexity is dependent on implementation -> differs in different browsers.)
+- [Sorting algorithms animations](https://www.toptal.com/developers/sorting-algorithms)
+- Elementary sorts: bubble sort, insertion sort, selection sort.
+- *Bubble sort:* Time complexity: O(n^2), Space complexity: O(1)
+- 
