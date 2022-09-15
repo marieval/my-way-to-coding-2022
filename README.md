@@ -246,3 +246,8 @@ this.setState(
 - It´s a function that refers to itself inside of the function.
 - Good for tasks that have repeated subtasks to do.
 - Every recursive function needs to have *a base case* (= a stop).
+- Recursive functions: O(2^n)! Anything we do with a recursion can be done iteratively (with a loop).
+- *Pros of recursion:* readability, DRY. *Cons:* large stack
+- *Tail call optimization:* methods in various languages that make recursion less memory-demanding.
+- *When to use recursion:* traversing or searching through trees and graphs: Every time we are using a tree or converting something into a tree, consider recursion! 
+
