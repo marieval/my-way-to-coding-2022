@@ -256,5 +256,6 @@ this.setState(
 - In every language sort methods work differently. In JS `array.sort()` converts the numbers in the array into strings! (The complexity is dependent on implementation -> differs in different browsers.)
 - [Sorting algorithms animations](https://www.toptal.com/developers/sorting-algorithms)
 - Elementary sorts: bubble sort, insertion sort, selection sort.
-- *Bubble sort:* Time complexity: O(n^2), Space complexity: O(1)
-- 
+- *Bubble sort:* Time complexity: O(n^2), Space complexity: O(1). (It compares two neighbouring elements and if the second is lower, then it swaps them.)
+- *Selection sort:* Time complexity: O(n^2), Space complexity: O(1). (It goes through the array and looks for smallest element, then it puts it to the first place (swaps the two items). Then it looks for the second-lowest element, etc.)
+- *Insertion sort:*  used when the list of items is nearly sorted, and in small data-set. Time complexity: O(n^2) (in almost sorted: O(n)).
